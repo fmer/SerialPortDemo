@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:minWidth="300dp"
+    android:minHeight="500dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/ctl_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="请选择城市"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/black" />
+
+    <ListView
+        android:id="@+id/ctl_dialog_lv"
+        android:layout_width="fill_parent"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="#00000000"
+        android:layout_height="wrap_content">
+    </ListView>
+
+</LinearLayout>
